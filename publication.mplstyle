@@ -1,0 +1,43 @@
+# use the following settings:
+#    plt.xlim()
+#    plt.ylim()
+#    ax = plt.subplot(1,1,1)
+#    ax.set_xticklabels([''], fontsize=10)
+#    ax.xaxis.set_ticks([##])
+#    ax.xaxis.set_ticks_position('bottom')
+#    ax.yaxis.set_ticks_position('left')
+#    plt.ylabel('', fontsize=14)
+
+# Set all colors to grayscale
+# Note: strings of float values are interpreted by matplotlib as gray values.
+
+
+lines.color: black
+patch.facecolor: white
+patch.edgecolor: black
+
+text.color: black
+
+# Hide the right and top spines
+axes.spines.right: False
+axes.spines.top: False
+
+axes.facecolor: white
+axes.edgecolor: black
+axes.labelcolor: black
+# black to light gray
+axes.prop_cycle: cycler('color', ['0.00', '0.40', '0.60', '0.70'])
+
+xtick.color: black
+ytick.color: black
+
+grid.color: black
+
+figure.facecolor: white
+figure.edgecolor: white
+
+image.cmap: gray
+
+savefig.facecolor: white
+savefig.edgecolor: white
+
